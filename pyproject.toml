@@ -1,0 +1,19 @@
+[project]
+name = "Website-RAG"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Abinav Ramesh", email = "abinavrameshs@gmail.com"},
+]
+dependencies = ["crawl4ai>=0.4.248"]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "GNU"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
